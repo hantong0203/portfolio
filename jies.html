@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Hantong Han, a Rutgers student interested in finance, communication, and visual storytelling.">
+  <title>Hantong Han | Portfolio</title>
+  <style>
+    :root { color-scheme: light; --ink:#17283e; --muted:#526277; --navy:#11253e; --accent:#196d77; --bg:#f5f7fa; --line:#dde4ec; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:var(--accent); }
+    a:focus-visible { outline:3px solid #d79539; outline-offset:3px; }
+    header { background:var(--navy); color:#fff; }
+    .wrap { max-width:1050px; margin:auto; padding:0 24px; }
+    nav { display:flex; justify-content:space-between; gap:20px; align-items:center; padding:20px 0; }
+    nav strong { font-size:1.1rem; letter-spacing:.02em; }
+    nav .links { display:flex; flex-wrap:wrap; gap:20px; }
+    nav a { color:#e7f3f3; text-decoration:none; font-size:.95rem; }
+    nav a:hover { text-decoration:underline; }
+    .hero { padding:78px 0 88px; }
+    .eyebrow { color:#8fdbd3; font-weight:700; letter-spacing:.13em; text-transform:uppercase; font-size:.82rem; }
+    h1 { font-size:clamp(2.5rem,7vw,4.6rem); line-height:1.12; margin:12px 0 20px; }
+    .hero p { max-width:670px; font-size:1.15rem; color:#d6e1ed; margin:0; }
+    main section { padding:62px 0 0; }
+    h2 { font-size:1.9rem; line-height:1.25; margin:0 0 22px; }
+    p { margin:0 0 16px; }
+    .intro { max-width:760px; color:var(--muted); font-size:1.06rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:25px; box-shadow:0 5px 16px rgba(20,42,65,.04); }
+    .card h3 { font-size:1.17rem; margin:0 0 9px; }
+    .card p { color:var(--muted); margin-bottom:0; }
+    .tag { display:inline-block; color:var(--accent); font-weight:700; font-size:.78rem; text-transform:uppercase; letter-spacing:.07em; margin-bottom:9px; }
+    .projects { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    footer { margin-top:76px; padding:25px 0; background:#e7edf2; color:var(--muted); font-size:.9rem; }
+    @media (max-width:740px) { nav { align-items:flex-start; flex-direction:column; } .hero { padding:55px 0 66px; } .grid,.projects { grid-template-columns:1fr; } main section { padding-top:48px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Main navigation">
+        <strong>Hantong Han</strong>
+        <div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a></div>
+      </nav>
+      <div class="hero">
+        <div class="eyebrow">Rutgers University · Portfolio</div>
+        <h1>Hi, I'm Hantong.</h1>
+        <p>I am a Rutgers student interested in finance. I enjoy working with information, learning how businesses make decisions, and communicating ideas clearly.</p>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <p class="intro">I am interested in building a career in finance. I want to understand how financial information helps people and businesses make thoughtful decisions. Through my classes and internship experience, I am developing my skills in analysis, writing, and teamwork.</p>
+    </section>
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <article class="card">
+        <span class="tag">Summer internship · China</span>
+        <h3>Changjiang Securities</h3>
+        <p>I completed a summer internship at Changjiang Securities in China. The experience gave me an opportunity to learn about the professional environment of a securities firm and strengthened my interest in finance. I hope to continue building my knowledge of financial markets and business decisions.</p>
+      </article>
+    </section>
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="grid">
+        <article class="card"><h3>Excel and organization</h3><p>I use spreadsheets to organize information and work with data in my coursework.</p></article>
+        <article class="card"><h3>Clear communication</h3><p>Writing assignments have helped me present facts and explain ideas in a direct way.</p></article>
+        <article class="card"><h3>Mandarin and English</h3><p>Speaking both languages helps me communicate with people from different backgrounds.</p></article>
+        <article class="card"><h3>Attention to detail</h3><p>I review and revise my work to make it more accurate and easier to understand.</p></article>
+      </div>
+    </section>
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected projects</h2>
+      <div class="projects">
+        <article class="card"><span class="tag">News writing</span><h3>Writing a news lead</h3><p>In a news writing class, I practiced writing short leads that put the most important facts first. I worked to make each sentence clear and accurate while following AP style. This project improved how I communicate information to an audience.</p></article>
+        <article class="card"><span class="tag">Photography</span><h3>Forward and growth</h3><p>For a photography project, I photographed a staircase leading toward a door and light. I chose the composition to express moving forward. This project taught me to make careful visual choices and explain the purpose behind my work.</p></article>
+        <article class="card"><span class="tag">Writing and analysis</span><h3>Reading as a writer</h3><p>In a writing class, I analyzed Jhumpa Lahiri's essay “Why Italian?” and revised my response using feedback. I worked on a clearer main idea and smoother connections between paragraphs. The process strengthened my analysis and revision skills.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">Hantong Han · Rutgers University</div></footer>
+</body>
+</html>
